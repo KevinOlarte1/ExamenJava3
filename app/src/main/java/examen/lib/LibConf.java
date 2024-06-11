@@ -2,6 +2,7 @@ package examen.lib;
 import net.datafaker.Faker;
 
 public class LibConf {
+    @SuppressWarnings("unused")
     public static Faker faker= new Faker(new java.util.Locale("es"));
     public static void sleep(){
         try {

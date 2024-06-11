@@ -20,12 +20,15 @@ public class LibMenu {
         
     }
 
+    /**
+     * Metodo para imprimir un array de Enum
+     * @param args array de Enum
+     */
     public static void printEnum(Enum<?>[] args){
         //System.out.println(limitT  + "\n" + extremo + args[0].getClass().getSimpleName() + extremo + "\n" + limitT);
         for (int i = 0; i < args.length; i++) {
             System.out.println(i + "." + args[i]);
         }
-        System.err.println("\n" +acabar + "\n0.Para salir");
     }
 
 
